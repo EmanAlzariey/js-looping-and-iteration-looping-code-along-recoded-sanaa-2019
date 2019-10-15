@@ -16,3 +16,14 @@ function writeCards(name , event) {
 
   return thankYou; //and and returning the new array.
 }
+
+// let i =0;
+function countdown(i){
+  for( i < 0){
+    console.log(i); //log while you countdown
+    i--;
+  }
+  console.log(i); //log everytime you count
+}
+
+countdown(10);
